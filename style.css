@@ -1,0 +1,239 @@
+body {
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    cursor:pointer;
+    color:#FFF;
+    font-size: 2em;
+    transition: all 0.3s linear;
+    font-family: "Open Sans", serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zone:hover {
+    -webkit-box-shadow:;
+    -moz-box-shadow:;
+    -o-box-shadow;
+    color:;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.5em;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-right: auto;
+
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FA7268;
+}
+
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+
+ .title {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: -10%;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+ }
+
+.container {
+    /*show heigh: auto*/
+    height: 40vh; 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    padding-top: .5rem;
+}
+
+.cover {
+    width: 40rem;
+}
+
+.button {
+    display: block;
+    margin-left: 5%;
+}
+
+.button a {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #000;
+	border: .5px solid gray;
+	border-radius: 5px;
+    background: #FA7268;;
+}
+
+.button a:hover {
+	background-color:  #FA7268;
+    font-weight: bold;   
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+
+ .blogpost {
+     position: absolute;
+     width: 50%;
+     margin-left: 5%;
+     padding-top: 10em;
+ }
+
+ .blog-title {
+    font-size: 2.5em;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+ }
+
+ .mugikoto {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ 
+ .mugi {
+     max-width: 20%;
+     border-radius: 50%;
+   
+ }
+
+#showcase {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-end;
+    justify-content: center;
+    margin: 10rem 5rem;
+   
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 1em 0;
+	max-width: 200px;
+	box-shadow: 0px 0px 5px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.cards:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.card-desc{
+    font-size: .8em;
+    
+}
+.cards img {
+	max-width: 200px;
+	box-shadow: 0px 2px 5px;
+}
+.cards .button a {
+	padding: 5px;
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #707070;
+	border-radius: 5px;
+}
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background-color: #FA7268;
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#media-icons ul {
+	margin: 30px;
+	display: flex;
+	list-style-type: none;
+	padding: 20px;
+}
+#logo a {
+	 color: #000;
+ 	 padding: 8px 16px;
+  	 text-decoration: none;
+  	 font-weight: bold;
+}
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green {
+   
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red {
+   
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow {
+    
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue {
+  color: #FFF;
+
+}
+
